@@ -1,0 +1,18 @@
+.movieWrapper{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+.movieListTitle{
+    color:#79b8f3;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.movieListContainer{
+    width: 90vw;    
+    margin-bottom: 10px;
+}

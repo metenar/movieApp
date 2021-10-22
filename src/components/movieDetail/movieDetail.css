@@ -1,0 +1,60 @@
+.movieDetailContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieDetail{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #1a242f;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.movieDetailLeft{
+    margin-right: 20px;
+}
+.movieDetailPoster{
+    width: 270px;
+    height: 450px;
+}
+.movieDetailRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #79b8f3;
+}
+
+.movieDetailTitle{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+.movieDetailIconContainer{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.movieDetailDesc{
+    margin-top: 20px;
+    line-height: 1.8rem;
+    color: #fff;
+}
+
+.movieInfo > div span:first-child{
+    padding: 10px 0px;
+    color: #fff;
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+}

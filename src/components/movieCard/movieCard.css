@@ -1,0 +1,31 @@
+.movieCard{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #1a242f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.movieCard:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+.moviePoster{
+    width: 100%;
+}
+.cardBottom{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.movieTitle{
+    text-align: center;
+}
+
+

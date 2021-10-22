@@ -5,7 +5,7 @@ export const fetchAsyncMovies = createAsyncThunk(
   "movies/fetchAsyncMovies",
   async (term) => {
     const resp = await getMovie.get(
-      `?apikey=${process.env.REACT_APP_API_KEY}&s=${term}&type=movie`
+      `?apikey=${process.env.REACT_APP_API_KEY}&s=${term}&type=movie/`
     );
     return resp.data;
   }
@@ -15,7 +15,7 @@ export const fetchAsyncShows = createAsyncThunk(
   "movies/fetchAsyncShows",
   async (term) => {
     const resp = await getMovie.get(
-      `?apikey=${process.env.REACT_APP_API_KEY}&s=${term}&type=series`
+      `?apikey=${process.env.REACT_APP_API_KEY}&s=${term}&type=series/`
     );
     return resp.data;
   }
@@ -24,7 +24,7 @@ export const fetchAsyncMovieOrShowDetail = createAsyncThunk(
   "movies/fetchAsyncMovieOrShowDetail",
   async (id) => {
     const resp = await getMovie.get(
-      `?apikey=${process.env.REACT_APP_API_KEY}&i=${id}&Plot=full`
+      `?apikey=${process.env.REACT_APP_API_KEY}&i=${id}&Plot=full/`
     );
     return resp.data;
   }

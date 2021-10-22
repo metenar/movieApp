@@ -23,7 +23,7 @@ const MovieList = () => {
       <div className="movieWrapper">
         <div className="movieListTitle">Movies</div>
         <div className="movieListContainer">        
-            <Slider {...Settings}>{renderMovies}</Slider>)                
+            <Slider {...Settings}>{renderMovies}</Slider>                
         </div>
         <div className="movieListTitle">Shows</div>
         <div className="movieListContainer">        
